@@ -6,7 +6,7 @@ const {
    spanyol
 } = require(`./language`)
 
-global.OpenAIKey = "YOUR_KEY" //login to https://platform.openai.com/account/api-keys to get apikey
+global.OpenAIKey = "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" //login to https://platform.openai.com/account/api-keys to get apikey
 // Website Api (jgn di ganti tomlol)
 global.APIs = {
    alfa: 'https://api.zeeoneofc.my.id', //apabila link api eror, segera laporkan ke owner
@@ -25,9 +25,9 @@ global.firtsChat = true //send firts message to new user
 global.autoread = true // auto read message
 global.antidelete = false // anti delete
 global.antiviewonce = true // anti view once
-global.autobio = false //auto ganti bio
+global.autobio = true //auto ganti bio
 global.anticall = true //anti call 
-global.userRegister = false
+global.userRegister = true
 global.autoblok212 = false //ubah jadi true biar nmr 212 di blok sama bot
 global.autolevelup = true
 global.groupOnly = false //bot hanya bisa di gunakan dalam grup
@@ -41,24 +41,24 @@ global.language = indonesia //change indonesia to english if you don't understan
 
 // Other
 // Other
-global.botname = "Alphabot-Mdོ" //namabot kalian
-global.ownername = "ᴹᴿ᭄ ZeeoneOfcོ ×፝֟͜×" //nama kalian
-global.myweb = "https://s.id/zeeoneofc" //bebas asal jan hapus
+global.botname = "𝐙𝖊𝖓𝖓𝕭𝖔𝖙𝐳-𝕸𝕯" //namabot kalian
+global.ownername = "ᴹᴿ᭄ 𝕶𝖆𝖎𝐙𝖊𝖓𝖓 ×፝֟͜×" //nama kalian
+global.myweb = "https://link.id/ZennCorner" //bebas asal jan hapus
 global.youtube = "https://youtube.com/c/@ZeeoneOfc" //bebas asal jan hapus
-global.myweb2 = "https://s.id/zeeoneofc" //bebas
-global.email = "zeeoneofc@gmail.com" //bebas
+global.myweb2 = "https://link.id/zennCorner" //bebas
+global.email = "Skyavent803@gmail.com" //bebas
 global.region = "Indonesia" //bebas
 global.timezone = 'Asia/Jakarta' //  timezone wib
-global.premium = ['62887435047326'] //premium user
-global.owner = ["62887435047326", "62821931157232"] //ganti agar fitur owner bisa di gunakan
-global.ownernomer = "62887435047326" // nomor wa kalian
-global.ownernomerr = "+"+ownernomer //nmr wa kalian
+global.premium = ['6285649735418'] //premium user
+global.owner = ["6285649735418", "6285784507701"] //ganti agar fitur owner bisa di gunakan
+global.ownernomer = "6285649735418" // nomor wa kalian
+global.ownernomerr = "6285649735418"+ownernomer //nmr wa kalian
 global.thumbnail = "./image/lol.jpg" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
 global.donasi = "./image/donasi.jpg" // foto donasi di folder image
 global.background_welcome = "https://telegra.ph/file/edca4b513ddf29fd52c0e.jpg" // maks size 30kb, agar welcome image nya tdk delay
 global.thumbGif = 'https://telegra.ph/file/e90bef3779d3c5812a5d1.mp4'
-global.packname = '© ' + botname //sticker wm ubah
-global.author = 'Created By ' + ownername //sticker wm ganti nama kalian
+global.packname = '©𝕶𝖆𝖎𝐙𝖊𝖓𝖓𝕭𝖔𝖙𝖟' + botname //sticker wm ubah
+global.author = 'Created By Ara-MD' + ownername //sticker wm ganti nama kalian
 global.sessionName = 'session'
 //type menu for menu
 global.typemenu = 'templateImage' //
